@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio profissional de Vinicius Lessa, estudante de TI e desenvolvedor.">
+  <title>Vinicius Lessa | Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="navbar">
+    <a class="logo" href="#inicio" aria-label="Voltar ao início">VL.</a>
+
+    <nav aria-label="Navegação principal">
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+
+    <button class="theme-toggle" id="themeToggle" type="button" aria-label="Alternar modo claro e escuro">
+      <span id="themeIcon">☀</span>
+    </button>
+  </header>
+
+  <main>
+    <!-- INÍCIO / APRESENTAÇÃO -->
+    <section class="apresentacao container" id="inicio">
+      <div class="texto-apresentacao reveal">
+        <p class="eyebrow">// TI STUDENT · DEVELOPER</p>
+
+        <h1>VINICIUS<br><span>LESSA</span></h1>
+
+        <p class="subtitle">
+          <span id="typingText"></span><span class="cursor">|</span><br>
+          Construindo experiências digitais com código, curiosidade e propósito.
+        </p>
+
+        <div class="tags" aria-label="Tecnologias">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>SQL</span>
+          <span>C#</span>
+        </div>
+
+        <div class="buttons">
+          <a class="btn primary" href="#projetos">VER PROJETOS</a>
+          <a class="btn secondary" href="#contato">CONTATO</a>
+        </div>
+      </div>
+
+      <div class="foto-apresentacao reveal">
+        <div class="photo-frame">
+          <img src="assets/vinicius.jpg" alt="Foto de Vinicius Lessa">
+        </div>
+        <span class="photo-label">DEVELOPER / 01</span>
+      </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section class="about container reveal" id="sobre">
+      <div class="section-number">
+        <span>01 / SOBRE</span>
+        <h2>DESENVOLVEDOR<br>EM FORMAÇÃO</h2>
+      </div>
+
+      <div class="about-content">
+        <p class="large">
+          Estudante de Tecnologia da Informação, interessado em desenvolvimento,
+          dados e criação de soluções digitais.
+        </p>
+        <p>
+          Atualmente desenvolvendo minha base em HTML, CSS, JavaScript, SQL e C#,
+          transformando ideias em projetos para meu portfólio.
+        </p>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section class="section container" id="habilidades">
+      <div class="section-title reveal">
+        <span>02 / STACK</span>
+        <h2>HABILIDADES</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <span class="card-number">01</span>
+          <h3>FRONT-END</h3>
+          <strong>HTML · CSS · JAVASCRIPT</strong>
+          <p>Interfaces, responsividade e interação para experiências digitais.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card-number">02</span>
+          <h3>DADOS</h3>
+          <strong>SQL</strong>
+          <p>Consultas, organização e manipulação de dados.</p>
+        </article>
+
+        <article class="card reveal">
+          <span class="card-number">03</span>
+          <h3>BACK-END</h3>
+          <strong>C#</strong>
+          <p>Lógica e desenvolvimento de aplicações.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section class="section container" id="projetos">
+      <div class="section-title reveal">
+        <span>03 / WORK</span>
+        <h2>PROJETOS</h2>
+      </div>
+
+      <div class="projects">
+        <article class="project reveal">
+          <div class="project-top"><span>01</span><span>↗</span></div>
+          <div class="project-visual"><span>&lt;/&gt;</span></div>
+          <h3>PORTFÓLIO</h3>
+          <p>Este próprio projeto: interface pessoal desenvolvida com HTML, CSS e JavaScript.</p>
+          <a href="#inicio">VER PROJETO →</a>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-top"><span>02</span><span>↗</span></div>
+          <div class="project-visual"><span>SQL_</span></div>
+          <h3>VILA REAL</h3>
+          <p>Experiência digital para uma padaria, com foco em organização, dados e presença online.</p>
+          <a href="#contato">SAIBA MAIS →</a>
+        </article>
+
+        <article class="project reveal">
+          <div class="project-top"><span>03</span><span>↗</span></div>
+          <div class="project-visual"><span>+</span></div>
+          <h3>EM BREVE</h3>
+          <p>Espaço reservado para novos projetos, experimentos e aplicações.</p>
+          <a href="#contato">AGUARDE →</a>
+        </article>
+      </div>
+
+      <div class="github-box reveal">
+        <div>
+          <span>OPEN SOURCE / GITHUB</span>
+          <h3>Veja meus códigos e projetos.</h3>
+        </div>
+        <a class="btn primary" href="https://github.com/" target="_blank" rel="noopener">ABRIR GITHUB ↗</a>
+      </div>
+    </section>
+
+    <!-- CONTATO + FORMULÁRIO OBRIGATÓRIO -->
+    <section class="contact-section container" id="contato">
+      <div class="contact-copy reveal">
+        <span class="section-label">04 / CONTATO</span>
+        <h2>VAMOS<br>CONSTRUIR ALGO.</h2>
+        <p>Preencha o formulário e deixe uma mensagem. Os campos possuem validação em JavaScript.</p>
+      </div>
+
+      <form class="contact-form reveal" id="contactForm" novalidate>
+        <div class="form-group">
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required>
+          <small class="error" id="nomeError"></small>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="telefone">Telefone</label>
+            <input id="telefone" name="telefone" type="tel" inputmode="numeric"
+                   placeholder="(31) 99999-9999" maxlength="15" required>
+            <small class="error" id="telefoneError"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="email" placeholder="voce@email.com" required>
+            <small class="error" id="emailError"></small>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+          <small class="error" id="mensagemError"></small>
+        </div>
+
+        <button class="submit-btn" type="submit">ENVIAR MENSAGEM ↗</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <div class="modal" id="successModal" aria-hidden="true">
+    <div class="modal-content" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" type="button" aria-label="Fechar">×</button>
+      <span class="modal-icon">✓</span>
+      <h2 id="modalTitle">Mensagem pronta!</h2>
+      <p>O formulário foi validado com sucesso. Em um projeto real, aqui você poderia conectar o formulário a um serviço de envio.</p>
+      <button class="btn primary" id="modalOk" type="button">FECHAR</button>
+    </div>
+  </div>
+
+  <footer class="container">
+    <span>VINICIUS LESSA / DEVELOPER</span>
+    <div class="footer-links">
+      <a href="mailto:seuemail@email.com">E-mail</a>
+      <a href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+    </div>
+    <span>2026</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
